@@ -82,7 +82,18 @@
 
 // Manipulating the HTML and CSS using JavaScript
 
+
+// Heading1.textContent = "Welcome to JavaScript Manipulation!";
+// Heading1.style.fontSize = "30px";
+// Heading1.style.color = "blue";
+// heading1.innerHTML = "<span class='heading'>Welcome to JavaScript Manipulation!</span>"
+
+// headingE1.insertAdjacentHTML("beforend", "<span class='heading--big'>Everyone</span>")
+
 const Heading1= document.querySelector(".heading");
-Heading1.textContent = "Welcome to JavaScript Manipulation!";
-Heading1.style.fontSize = "30px";
-Heading1.style.color = "blue";
+const clickHandler = () => {
+  Heading1.style.color = "red";
+  console.log("changed color");
+};
+
+Heading1.addEventListener("click", clickHandler);
