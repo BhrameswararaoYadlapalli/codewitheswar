@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Color Flipper</title>
+    <style>
+        body {
+            text-align: center;
+            padding: 50px; 
+            }
+        h1 {
+            color:black;
+        }
+          button{
+            padding: 10px 20px;
+            margin: 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none ;
+            border-radius: 5px;
+        }
+        #green {
+            background-color: green;
+            color: white;
+        }
+        #blue {
+            background-color: blue;
+            color: white;
+        }
+        #red {
+            background-color: red;
+            color: white;
+        }
+        #randomcolor {
+            background-color:black;
+            color: white;
+        }
+    </style>    
+</head>
+
+<body>
+    <h1>COLOR FLIPPER</h1>
+    <script src="colorFlipper.js"></script>
+    
+<button id="green" onclick="changeColor('green')">GREEN</button>
+<button id="blue" onclick="changeColor('blue')">BLUE</button>
+<button id="red" onclick="changeColor('red')">RED</button>
+<button id="randomcolor" onclick="randomColor()">RANDOM COLOR</button>
+</body>
+</html>

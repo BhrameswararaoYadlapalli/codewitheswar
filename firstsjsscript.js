@@ -90,10 +90,11 @@
 
 // headingE1.insertAdjacentHTML("beforend", "<span class='heading--big'>Everyone</span>")
 
-const Heading1= document.querySelector(".heading");
-const clickHandler = () => {
-  Heading1.style.color = "red";
-  console.log("changed color");
-};
+// const Heading1= document.querySelector(".heading");
+// const clickHandler = () => {
+//   Heading1.style.color = "red";
+//   console.log("changed color");
+// };
 
-Heading1.addEventListener("click", clickHandler);
+// Heading1.addEventListener("click", clickHandler);
+
